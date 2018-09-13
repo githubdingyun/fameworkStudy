@@ -9,10 +9,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.annotation.Resource;
 
 /**
- *@ClassName: UserController
- *@description: 类描述
- *@author: wangjunhui@wondersgroup.com
- *@data: 2018/5/11 14:59
+ * @ClassName: UserController
+ * @description: 类描述
+ * @author: wangjunhui@wondersgroup.com
+ * @date
  **/
 @Controller
 @RequestMapping("/")
@@ -21,8 +21,8 @@ public class UserController {
     private UserService userService;
 
     @ResponseBody
-    public String toIndex(){
+    public String toIndex() {
         User users = this.userService.getAll();
-        return  users.toString();
+        return users.toString();
     }
 }

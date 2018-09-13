@@ -3,11 +3,12 @@ package cn.a52going.model;
 import javax.management.relation.Role;
 import java.util.Date;
 import java.util.List;
+
 /**
- *@ClassName: User
- *@description: 类描述
- *@author: wangjunhui@wondersgroup.com
- *@data: 2018/5/11 13:49
+ * @ClassName: User
+ * @description: 类描述
+ * @author: wangjunhui@wondersgroup.com
+ * @data: 2018/5/11 13:49
  **/
 
 

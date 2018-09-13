@@ -8,6 +8,7 @@ import cn.a52going.model.User;
  *@author: wangjunhui@wondersgroup.com
  *@data: 2018/5/11 14:42
  **/
+
 public interface UserService {
     User getAll();
 }
